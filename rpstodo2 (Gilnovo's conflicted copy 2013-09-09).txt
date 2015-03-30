@@ -1,0 +1,52 @@
+Write win conditions
+look up how to write a select case
+look up what Spock does to scissors
+draw background
+timer - 3sec to choose
+Create init section 
+init winningText
+init compPiece
+init playerPiece
+should init be a function or just run through once?
+scorekeeping
+mouse change
+
+
+1: rock;
+2: paper;
+3: scissors;
+4: lizard;
+5: Spock;
+
+
+Victory conditions:
+Rock:
+	scissors - w - crushes
+	paper 	- l - covered by
+	lizard	- w - crushes
+	Spock	- l - vaporized by
+	
+Scissors:
+	rock 	- l - crushed by
+	paper 	- w - cuts
+	lizard 	- w - cuts
+	Spock	- l - something
+	
+Paper:
+	rock	- w - covers
+	scissors - l - cut by
+	lizard	- l - eats
+	Spock	- w - disproves
+	
+Lizard:
+	rock	- l - crushed by
+	scissors - l - cut by
+	paper	- w - steps on
+	Spock	- w - poisons
+
+Spock:
+	rock	- w - vaporizes
+	scissors - w - something
+	paper	- l - disproved by
+	lizard	- l - poisoned by
+	
